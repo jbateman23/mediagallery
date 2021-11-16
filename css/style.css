@@ -7,7 +7,7 @@
 }
 body { /*-- Sets body defaults --*/
   padding: .25rem;
-  font-size: 18px;
+  font-size: 15px;
   color: var(--text);
   background-color: var(--prime);
   width: 98%;
@@ -36,11 +36,11 @@ a.nav-item {
   text-align: center; /*-- center-aligns all text inside their boxes --*/
   padding: .75em 0; /*-- provides padding inside menu items --*/
   margin: auto 0; /*-- centers menu text vertically --*/
-  color: var(--rev-text);
+  color: #52682a;
   transition: color 250ms ease-in-out; /*-- specifies transition, duration, and easing --*/
 }
 a.nav-item:hover {
-  color: var(--accent);
+  color: #68502a;
   cursor: pointer; /*-- changes menu items to pointer on hover --*/
 }
 .label {
@@ -109,11 +109,11 @@ a.nav-item:hover {
 }
 .captiontext {
   background: rgba(0,0,0,0.4); /*-- transparent black background --*/
-  color: #f2f2f2; /*-- sets color to almost white --*/
+  color: #f8f7e7; /*-- sets color to almost white --*/
   font-size: 22px; /*-- sets font size --*/
-  padding: 8px 12px; /*-- sets caption padding --*/
+  padding: 10px 12px; /*-- sets caption padding --*/
   position: absolute; /*-- positions caption text absolutely--*/
-  bottom: 8px; /*-- sets position 8px from bottom --*/
+  bottom: 320px; /*-- sets position 8px from bottom --*/
   width: 100%; /*-- sets width equal to container width --*/
   text-align: center; /*-- aligns text center --*/
 }
@@ -191,7 +191,7 @@ a.nav-item:hover {
 /*-- media card styles -- */
 .main-grid-item {
   border-radius: 3px;  /*-- rounds borders --*/
-  padding: .5em; /*-- adds space inside --*/
+  padding: 1em; /*-- adds space inside --*/
   background-color: #303030;
 }
 .thumb {
@@ -223,13 +223,13 @@ a.nav-item:hover {
 .card-title {
   margin: 1rem 0 0 0;
   align-self: center; /*-- positions at beginning --*/
-  color: #ad7300;
+  color: #efa105;
 }
 .card-text {
   font-size: .80em;
   line-height: 1.2;
   align-self: center;
-  color: var(--text);
+  color: #f8f7e7;
 }
 button.card-more {
   background: transparent;
