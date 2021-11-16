@@ -40,7 +40,7 @@ a.nav-item {
   transition: color 250ms ease-in-out; /*-- specifies transition, duration, and easing --*/
 }
 a.nav-item:hover {
-  color: #68502a;
+  color: #303030;
   cursor: pointer; /*-- changes menu items to pointer on hover --*/
 }
 .label {
@@ -108,7 +108,7 @@ a.nav-item:hover {
   background-color: rgba(0,0,0,0.8); /*-- gives a background for contrast on hover --*/
 }
 .captiontext {
-  background: rgba(0,0,0,0.4); /*-- transparent black background --*/
+  background: rgba(0,0,0.5,0.5); /*-- transparent black background --*/
   color: #f8f7e7; /*-- sets color to almost white --*/
   font-size: 22px; /*-- sets font size --*/
   padding: 10px 12px; /*-- sets caption padding --*/
