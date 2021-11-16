@@ -3,7 +3,7 @@
   --text: #333;
   --rev-text: #EEE;
   --accent: #6c714b;
-  --bg: #EEE;
+  --bg: #303030;
 }
 body { /*-- Sets body defaults --*/
   padding: .25rem;
@@ -166,9 +166,9 @@ a.nav-item:hover {
 - GRID STYLES -
 ---------------*/
 .main-grid {
-  margin-top: 3.5rem; /*-- adds space above grid wrap --*/
+  margin-top: 4rem; /*-- adds space above grid wrap --*/
   display: grid; /*-- sets display mode --*/
-  grid-gap: 1.5rem; /*-- creates gutters --*/
+  grid-gap: 2rem; /*-- creates gutters --*/
   grid-template-columns: 1fr; /*-- default mobile layout is 1-column--*/
 }
 /*-- grid media queries--*/
@@ -190,9 +190,9 @@ a.nav-item:hover {
 }
 /*-- media card styles -- */
 .main-grid-item {
-  border-radius: 8px;  /*-- rounds borders --*/
+  border-radius: 3px;  /*-- rounds borders --*/
   padding: .5em; /*-- adds space inside --*/
-  background-color: var(--bg);
+  background-color: #303030;
 }
 .thumb {
   padding-bottom: 56%; /*-- creates ~16:9 ratio--*/
@@ -222,14 +222,13 @@ a.nav-item:hover {
 }
 .card-title {
   margin: 1rem 0 0 0;
-  text-transform: uppercase; /*--all caps text --*/
-  align-self: flex-start; /*-- positions at beginning --*/
-  color: var(--text);
+  align-self: center; /*-- positions at beginning --*/
+  color: #ad7300;
 }
 .card-text {
   font-size: .80em;
   line-height: 1.2;
-  align-self: flex-start;
+  align-self: center;
   color: var(--text);
 }
 button.card-more {
@@ -264,8 +263,8 @@ button.card-more:hover, button.card-more:active {
    background-color: rgba(10, 10, 10, .4); /*--slightly transparent--*/
 }
 .modal-content {
-   background-color: var(--bg);
-   color: var(--text);
+   background-color: #6c8e00;
+   color: #FFF;
    margin: 1rem auto;
    padding: 1em;
    width: 92%;
