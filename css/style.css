@@ -1,9 +1,9 @@
 :root {/*-- Sets color variables --*/
-  --prime: #FFF;
+  --prime: #b0b87f;
   --text: #333;
   --rev-text: #EEE;
-  --accent: #2E9CCA;
-  --bg: #FFF;
+  --accent: #6c714b;
+  --bg: #EEE;
 }
 body { /*-- Sets body defaults --*/
   padding: .25rem;
@@ -190,7 +190,7 @@ a.nav-item:hover {
 }
 /*-- media card styles -- */
 .main-grid-item {
-  border-radius: 4px;  /*-- rounds borders --*/
+  border-radius: 8px;  /*-- rounds borders --*/
   padding: .5em; /*-- adds space inside --*/
   background-color: var(--bg);
 }
@@ -201,18 +201,18 @@ a.nav-item:hover {
   border-radius: 4px 4px 0 0; /*-- rounds top-left and top-right edges --*/
 }
 /*-- Card Backgrounds --*/
-.one .thumb {background-image: url('https://picsum.photos/300/200/?image=0');}
-.two .thumb {background-image: url('https://picsum.photos/300/200/?image=24');}
-.three .thumb {background-image: url('https://picsum.photos/300/200/?image=35');}
-.four .thumb {background-image: url('https://picsum.photos/300/200/?image=44');}
-.five .thumb {background-image: url('https://picsum.photos/300/200/?image=54');}
-.six .thumb {background-image: url('https://picsum.photos/300/200/?image=59');}
-.seven .thumb {background-image: url('https://picsum.photos/300/200/?image=71');}
-.eight .thumb {background-image: url('https://picsum.photos/300/200/?image=32');}
-.nine .thumb {background-image: url('https://picsum.photos/300/200/?image=19');}
-.ten .thumb {background-image: url('https://picsum.photos/300/200/?image=113');}
-.eleven .thumb {background-image: url('https://picsum.photos/300/200/?image=23');}
-.twelve .thumb {background-image: url('https://picsum.photos/300/200/?image=60');}
+.one .thumb {background-image: url('https://i.imgur.com/iDi6KAB.png');}
+.two .thumb {background-image: url('https://i.imgur.com/bSWzbkX.png');}
+.three .thumb {background-image: url('https://i.imgur.com/AE5IHZM.png');}
+.four .thumb {background-image: url('https://i.imgur.com/84ECJTZ.png');}
+.five .thumb {background-image: url('https://i.imgur.com/kyxvzrH.png');}
+.six .thumb {background-image: url('https://i.imgur.com/tCsI6qU.png');}
+.seven .thumb {background-image: url('https://i.imgur.com/lrnRWHK.png');}
+.eight .thumb {background-image: url('https://i.imgur.com/kUkOXqP.png');}
+.nine .thumb {background-image: url('https://i.imgur.com/E8hTv57.png');}
+.ten .thumb {background-image: url('https://i.imgur.com/OR0FZXF.png');}
+.eleven .thumb {background-image: url('https://i.imgur.com/3VG0bsk.png');}
+.twelve .thumb {background-image: url('https://i.imgur.com/uqXSu5F.png');}
 /*----*/
 .card-content {
   padding: 0 .5em .7em .5em;
